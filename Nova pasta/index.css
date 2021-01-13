@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #7b7b7b;
+    width: 100%;
+}
+
+header#logo {
+    width: 50%´;
+}
+
+section {
+    background-color: #e7e7e7;
+    width: 100%;
+    height: 120px;
+    margin-top: 0px;
+}
+
+nav {
+    justify-self: center;
+    align-self: center;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+
+nav li a {
+    text-align: center;
+    margin:  50px;
+}
+
+main#trabalho {
+    padding: 40px 0;
+    margin: 50px;
+}
+
+footer {
+    background-color: #7b7b7b;
+    width: 100%;
+    height: 180px;
+}
